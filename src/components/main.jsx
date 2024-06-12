@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import OwlCarousel from 'react-owl-carousel';
+import OurCourses from './OurCourses';
 
 export default function ContactUs() {
   const [formData, setFormData] = useState({
@@ -110,14 +112,14 @@ export default function ContactUs() {
               <div class="categories">
                 <h4>Meeting Catgories</h4>
                 <ul>
-                  <li><a href="#">Sed tempus enim leo</a></li>
-                  <li><a href="#">Aenean molestie quis</a></li>
-                  <li><a href="#">Cras et metus vestibulum</a></li>
-                  <li><a href="#">Nam et condimentum</a></li>
-                  <li><a href="#">Phasellus nec sapien</a></li>
+                  <li><a href="/">Sed tempus enim leo</a></li>
+                  <li><a href="/">Aenean molestie quis</a></li>
+                  <li><a href="/">Cras et metus vestibulum</a></li>
+                  <li><a href="/">Nam et condimentum</a></li>
+                  <li><a href="/">Phasellus nec sapien</a></li>
                 </ul>
                 <div class="main-button-red">
-                  <a href="meetings.html">All Upcoming Meetings</a>
+                  <a href="/">All Upcoming Meetings</a>
                 </div>
               </div>
             </div>
@@ -129,13 +131,13 @@ export default function ContactUs() {
                       <div class="price">
                         <span>$22.00</span>
                       </div>
-                      <a href="meeting-details.html"><img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting" /></a>
+                      <a href="/"><img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting" /></a>
                     </div>
                     <div class="down-content">
                       <div class="date">
                         <h6>Nov <span>10</span></h6>
                       </div>
-                      <a href="meeting-details.html"><h4>New Lecturers Meeting</h4></a>
+                      <a href="/"><h4>New Lecturers Meeting</h4></a>
                       <p>Morbi in libero blandit lectus<br />cursus ullamcorper.</p>
                     </div>
                   </div>
@@ -146,13 +148,13 @@ export default function ContactUs() {
                       <div class="price">
                         <span>$36.00</span>
                       </div>
-                      <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg" alt="Online Teaching" /></a>
+                      <a href="/"><img src="assets/images/meeting-02.jpg" alt="Online Teaching" /></a>
                     </div>
                     <div class="down-content">
                       <div class="date">
                         <h6>Nov <span>24</span></h6>
                       </div>
-                      <a href="meeting-details.html"><h4>Online Teaching Techniques</h4></a>
+                      <a href="/"><h4>Online Teaching Techniques</h4></a>
                       <p>Morbi in libero blandit lectus<br />cursus ullamcorper.</p>
                     </div>
                   </div>
@@ -163,13 +165,13 @@ export default function ContactUs() {
                       <div class="price">
                         <span>$14.00</span>
                       </div>
-                      <a href="meeting-details.html"><img src="assets/images/meeting-03.jpg" alt="Higher Education" /></a>
+                      <a href="/"><img src="assets/images/meeting-03.jpg" alt="Higher Education" /></a>
                     </div>
                     <div class="down-content">
                       <div class="date">
                         <h6>Nov <span>26</span></h6>
                       </div>
-                      <a href="meeting-details.html"><h4>Higher Education Conference</h4></a>
+                      <a href="/"><h4>Higher Education Conference</h4></a>
                       <p>Morbi in libero blandit lectus<br />cursus ullamcorper.</p>
                     </div>
                   </div>
@@ -180,13 +182,13 @@ export default function ContactUs() {
                       <div class="price">
                         <span>$48.00</span>
                       </div>
-                      <a href="meeting-details.html"><img src="assets/images/meeting-04.jpg" alt="Student Training" /></a>
+                      <a href="/"><img src="assets/images/meeting-04.jpg" alt="Student Training" /></a>
                     </div>
                     <div class="down-content">
                       <div class="date">
                         <h6>Nov <span>30</span></h6>
                       </div>
-                      <a href="meeting-details.html"><h4>Student Training Meetup</h4></a>
+                      <a href="/"><h4>Student Training Meetup</h4></a>
                       <p>Morbi in libero blandit lectus<br />cursus ullamcorper.</p>
                     </div>
                   </div>
@@ -233,7 +235,7 @@ export default function ContactUs() {
                   </div>
                   <div class="accordion-body">
                     <div class="content">
-                      <p>If you want to get the latest collection of HTML CSS templates for your websites, you may visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">Too CSS website</a>. If you need a working contact form script, please visit <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more info.</p>
+                      <p>If you want to get the latest collection of HTML CSS templates for your websites, you may visit <a rel="nofollow" href="/" target="_blank">Too CSS website</a>. If you need a working contact form script, please visit <a href="/" target="_parent">our contact page</a> for more info.</p>
                     </div>
                   </div>
                 </article>
@@ -285,7 +287,8 @@ export default function ContactUs() {
         </div>
       </section>
 
-      <section class="our-courses" id="courses">
+      <OurCourses />
+      {/* <section class="our-courses" id="courses">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
@@ -471,7 +474,7 @@ export default function ContactUs() {
                 <div class="item">
                   <img src="assets/images/course-01.jpg" alt="" />
                   <div class="down-content">
-                    <h4>Responsive HTML Templates for you</h4>
+                    <h4>Responsive React Js Templates for you</h4>
                     <div class="info">
                       <div class="row">
                         <div class="col-8">
@@ -493,7 +496,7 @@ export default function ContactUs() {
                 <div class="item">
                   <img src="assets/images/course-02.jpg" alt="" />
                   <div class="down-content">
-                    <h4>Download Free CSS Layouts for your business</h4>
+                    <h4>React.js Layouts for your business</h4>
                     <div class="info">
                       <div class="row">
                         <div class="col-8">
@@ -560,7 +563,7 @@ export default function ContactUs() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section class="our-facts">
         <div class="container">
@@ -614,75 +617,75 @@ export default function ContactUs() {
       </section>
 
       <section className="contact-us" id="contact">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-9 align-self-center">
-            <div className="row">
-              <div className="col-lg-12">
-                <form id="contact" onSubmit={handleSubmit}>
-                  <div className="row">
-                    <div className="col-lg-12">
-                      <h2>Let's get in touch</h2>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-9 align-self-center">
+              <div className="row">
+                <div className="col-lg-12">
+                  <form id="contact" onSubmit={handleSubmit}>
+                    <div className="row">
+                      <div className="col-lg-12">
+                        <h2>Let's get in touch</h2>
+                      </div>
+                      <div className="col-lg-4">
+                        <fieldset>
+                          <input name="username" type="text" id="username" placeholder="YOURNAME...*" value={formData.username} onChange={handleChange} required="" />
+                        </fieldset>
+                      </div>
+                      <div className="col-lg-4">
+                        <fieldset>
+                          <input name="email" type="email" id="email" placeholder="GMAIL...*" value={formData.email} onChange={handleChange} required="" />
+                        </fieldset>
+                      </div>
+                      <div className="col-lg-4">
+                        <fieldset>
+                          <input name="subject" type="text" id="subject" placeholder="SUBJECT...*" value={formData.subject} onChange={handleChange} required="" />
+                        </fieldset>
+                      </div>
+                      <div className="col-lg-12">
+                        <fieldset>
+                          <textarea name="message" type="text" className="form-control" id="message" placeholder="YOUR MESSAGE..." value={formData.message} onChange={handleChange} required=""></textarea>
+                        </fieldset>
+                      </div>
+                      <div className="col-lg-12">
+                        <fieldset>
+                          <button type="submit" id="form-submit" className="button">SEND MESSAGE NOW</button>
+                        </fieldset>
+                      </div>
                     </div>
-                    <div className="col-lg-4">
-                      <fieldset>
-                        <input name="username" type="text" id="username" placeholder="YOURNAME...*" value={formData.username} onChange={handleChange} required=""/>
-                      </fieldset>
-                    </div>
-                    <div className="col-lg-4">
-                      <fieldset>
-                        <input name="email" type="email" id="email" placeholder="GMAIL...*" value={formData.email} onChange={handleChange} required=""/>
-                      </fieldset>
-                    </div>
-                    <div className="col-lg-4">
-                      <fieldset>
-                        <input name="subject" type="text" id="subject" placeholder="SUBJECT...*" value={formData.subject} onChange={handleChange} required=""/>
-                      </fieldset>
-                    </div>
-                    <div className="col-lg-12">
-                      <fieldset>
-                        <textarea name="message" type="text" className="form-control" id="message" placeholder="YOUR MESSAGE..." value={formData.message} onChange={handleChange} required=""></textarea>
-                      </fieldset>
-                    </div>
-                    <div className="col-lg-12">
-                      <fieldset>
-                        <button type="submit" id="form-submit" className="button">SEND MESSAGE NOW</button>
-                      </fieldset>
-                    </div>
-                  </div>
-                </form>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="right-info">
+                <ul>
+                  <li>
+                    <h6>Phone Number</h6>
+                    <span>010-020-0340</span>
+                  </li>
+                  <li>
+                    <h6>Email Address</h6>
+                    <span>info@meeting.edu</span>
+                  </li>
+                  <li>
+                    <h6>Street Address</h6>
+                    <span>Rio de Janeiro - RJ, 22795-008, Brazil</span>
+                  </li>
+                  <li>
+                    <h6>Website URL</h6>
+                    <span>www.meeting.edu</span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
-            <div className="right-info">
-              <ul>
-                <li>
-                  <h6>Phone Number</h6>
-                  <span>010-020-0340</span>
-                </li>
-                <li>
-                  <h6>Email Address</h6>
-                  <span>info@meeting.edu</span>
-                </li>
-                <li>
-                  <h6>Street Address</h6>
-                  <span>Rio de Janeiro - RJ, 22795-008, Brazil</span>
-                </li>
-                <li>
-                  <h6>Website URL</h6>
-                  <span>www.meeting.edu</span>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
-      </div>
-      <div className="footer">
-        <p>Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved.
-          <br />Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a></p>
-      </div>
-    </section>
+        <div className="footer">
+          <p>Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved.
+            <br />Design By: <a href="/" target="_parent" title="free css templates">Sahil</a></p>
+        </div>
+      </section>
     </>
   )
 }

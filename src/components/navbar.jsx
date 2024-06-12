@@ -9,7 +9,7 @@ export default function navbar() {
                         <div class="col-12">
                             <nav class="main-nav">
 
-                                <a href="index.html" class="logo">
+                                <a href="/" class="logo">
                                     Edu Meeting
                                 </a>
 
