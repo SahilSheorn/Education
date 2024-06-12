@@ -5,6 +5,7 @@ import Mainbanner from './components/Mainbanner';
 import Subbaner from './components/Subbaner';
 import Main from './components/main';
 import Navbar from './components/navbar';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 function App() {
   return (
     <>
