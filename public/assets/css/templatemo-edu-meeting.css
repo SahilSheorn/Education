@@ -922,6 +922,10 @@ section.upcoming-meetings .categories ul li {
   margin-bottom: 15px;
 }
 
+.form-control{
+  resize: none;
+}
+
 section.upcoming-meetings .categories ul li a {
   font-size: 15px;
   color: #1f272b;
