@@ -100,7 +100,7 @@ export default function ContactUs() {
         </div>
       </section>
 
-      <section class="upcoming-meetings" id="meetings">
+      <section class="upcoming-meetings">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
