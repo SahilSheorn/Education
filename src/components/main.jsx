@@ -207,7 +207,7 @@ export default function ContactUs() {
                 <div class="col-lg-12">
                   <div class="item">
                     <h3>APPLY FOR BACHELOR DEGREE</h3>
-                    <p>You are allowed to use this edu meeting CSS template for your school or university or business. You can feel free to modify or edit this layout.</p>
+                    <p>You are allowed to use this education meeting React applications for your school or university or business. You can feel free to Contact me for This sites.</p>
                     <div class="main-button-red">
                       <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
                     </div>
@@ -216,7 +216,7 @@ export default function ContactUs() {
                 <div class="col-lg-12">
                   <div class="item">
                     <h3>APPLY FOR BACHELOR DEGREE</h3>
-                    <p>You are not allowed to redistribute the template ZIP file on any other template website. Please contact us for more information.</p>
+                    <p>You are not allowed to Copy this code. Please contact us for more information.</p>
                     <div class="main-button-yellow">
                       <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
                     </div>
@@ -228,20 +228,20 @@ export default function ContactUs() {
               <div class="accordions is-first-expanded">
                 <article class="accordion">
                   <div class="accordion-head">
-                    <span>About Edu Meeting HTML Template</span>
+                    <span>About Edu Meeting</span>
                     <span class="icon">
                       <i class="icon fa fa-chevron-right"></i>
                     </span>
                   </div>
                   <div class="accordion-body">
                     <div class="content">
-                      <p>If you want to get the latest collection of HTML CSS templates for your websites, you may visit <a rel="nofollow" href="/" target="_blank">Too CSS website</a>. If you need a working contact form script, please visit <a href="/" target="_parent">our contact page</a> for more info.</p>
+                      <p>If you want to get the more collection of React applications for your websites, you may visit <a rel="nofollow" href="/" target="_blank">Too CSS website</a>. If you need a working contact form script, please visit <a href="/" target="_parent">our contact page</a> for more info.</p>
                     </div>
                   </div>
                 </article>
                 <article class="accordion">
                   <div class="accordion-head">
-                    <span>HTML CSS Bootstrap Layout</span>
+                    <span>React Bootstrap Layout</span>
                     <span class="icon">
                       <i class="icon fa fa-chevron-right"></i>
                     </span>
@@ -430,7 +430,7 @@ export default function ContactUs() {
                 <div class="item">
                   <img src="assets/images/course-03.jpg" alt="" />
                   <div class="down-content">
-                    <h4>Web Design Templates at your finger tips</h4>
+                    <h4>Web Design applications at your finger tips</h4>
                     <div class="info">
                       <div class="row">
                         <div class="col-8">
@@ -474,7 +474,7 @@ export default function ContactUs() {
                 <div class="item">
                   <img src="assets/images/course-01.jpg" alt="" />
                   <div class="down-content">
-                    <h4>Responsive React Js Templates for you</h4>
+                    <h4>Responsive React Js applications for you</h4>
                     <div class="info">
                       <div class="row">
                         <div class="col-8">
@@ -683,7 +683,7 @@ export default function ContactUs() {
         </div>
         <div className="footer">
           <p>Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved.
-            <br />Design By: <a href="/" target="_parent" title="free css templates">Sahil</a></p>
+            <br />Design By: <a href="/" target="_parent" title="free css applications">Sahil</a></p>
         </div>
       </section>
     </>
